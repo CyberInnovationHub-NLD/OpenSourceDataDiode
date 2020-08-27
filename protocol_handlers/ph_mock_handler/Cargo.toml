@@ -1,0 +1,13 @@
+[package]
+name = "ph_mock_handler"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+framework_constants = { path= "../../framework/framework_constants" }
+socket_utils = { path= "../../framework/socket_utils" }
+
+log = "0.4.8"
+structopt = {version = "0.3.7", default-features = false}
+syslog = "5.0.0"
+spsc-bip-buffer = "0.2.1"

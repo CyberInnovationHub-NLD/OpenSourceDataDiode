@@ -1,0 +1,17 @@
+[Unit]
+Description=Open source data diode
+After=network.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+User=osdd
+ExecStartPre=-/bin/sh -c 'docker rm $(docker ps -a -q) -f'
+ExecStart=/home/osdd/osdd
+ExecStop=-/bin/sh -c 'killall osdd'
+ExecStop=-/bin/sh -c 'docker kill $(docker ps -q)'
+
+[Install]
+WantedBy=multi-user.target

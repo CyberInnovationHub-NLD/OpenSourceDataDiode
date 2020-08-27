@@ -1,0 +1,21 @@
+[workspace]
+
+members = [
+	"framework/transport_udp",
+	"protocol_handlers/ph_kafka",
+	"protocol_handlers/ph_mock_handler",
+	"framework/osdd",
+	"statistics/statistics_handler",
+	"framework/socket_utils",
+	"framework/logging",
+	"framework/bip_utils",
+	"framework/framework_constants",
+	"protocol_handlers/ph_udp",
+	"filters/filter"
+]
+
+[profile.dev]
+panic = "abort"
+
+[profile.release]
+panic = "abort"

@@ -1,0 +1,27 @@
+[package]
+name = "ph_kafka"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies.kafka]
+version = "0.8.0"
+default-features = false
+features = ["snappy", "gzip"]
+
+[dependencies]
+bip_utils = { path= "../../framework/bip_utils" }
+logging = { path = "../../framework/logging" }
+statistics_handler = { path= "../../statistics/statistics_handler" }
+socket_utils = { path= "../../framework/socket_utils" }
+
+bincode = "1.2.1"
+lazy_static = "1.4.0"
+log = "0.4.8"
+serde = {version = "1.0.103", features=["derive"]}
+spsc-bip-buffer = "0.2.1"
+statsd = "0.13.0"
+structopt = {version = "0.3.7", default-features = false}
+syslog = "5.0.0"
+rand = "0.7"
+env_logger = "0.7.1"
+error-chain = "0.12.1"

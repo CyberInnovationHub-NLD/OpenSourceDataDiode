@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="844px" preserveAspectRatio="none" style="width:773px;height:844px;" version="1.1" viewBox="0 0 773 844" width="773px" zoomAndPan="magnify"><defs/><g><text fill="#000000" font-family="sans-serif" font-size="22" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="179" x="300.5" y="22.8379">Protocol handling</text><text fill="#000000" font-family="sans-serif" font-size="20" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="131" x="324.5" y="48.4336">Incoming side</text><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="171" x="304.5" y="71.5137">(example logical flow)</text><!--cluster nw_tx--><rect fill="#FFFFFF" height="148" style="stroke: #444444; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;" width="146" x="75" y="99.4688"/><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="130" x="83" y="118.0781">Sending network</text><!--cluster alias--><rect fill="#FFFFFF" height="379" style="stroke: #444444; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;" width="699" x="22" y="312.4688"/><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="105" x="319" y="331.0781">Ingress proxy</text><text fill="#444444" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="51" x="346" y="347.0508">[System]</text><!--entity sys_tx--><rect fill="#999999" height="92.9531" style="stroke: #8A8A8A; stroke-width: 1.5;" width="75" x="110.5" y="138.4688"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="55" x="120.5" y="165.0781">Sender</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="150" y="183.127"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="150" y="200.7363"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="150" y="218.3457"/><!--entity cont_incoming--><rect fill="#438DD5" height="108.0469" style="stroke: #3C7FC0; stroke-width: 1.5;" width="219" x="38.5" y="366.4688"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="168" x="64" y="393.0781">Protocol Data Handler</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="50" x="123" y="409.0508">[Process]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="150" y="426.2207"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="195" x="48.5" y="443.8301">Protocol specific incoming data</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="48" x="124" y="461.4395">handler</text><!--entity cont_filter1--><rect fill="#438DD5" height="90.4375" style="stroke: #3C7FC0; stroke-width: 1.5;" width="70" x="411" y="375.4688"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="38" x="427" y="402.0781">Filter</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="50" x="421" y="418.0508">[Process]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="448" y="435.2207"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="44" x="424" y="452.8301">Filter 1</text><!--entity cont_filter2--><rect fill="#438DD5" height="90.4375" style="stroke: #3C7FC0; stroke-width: 1.5;" width="70" x="635" y="375.4688"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="38" x="651" y="402.0781">Filter</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="50" x="645" y="418.0508">[Process]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="672" y="435.2207"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="44" x="648" y="452.8301">Filter 2</text><!--entity cont_filter3--><rect fill="#438DD5" height="90.4375" style="stroke: #3C7FC0; stroke-width: 1.5;" width="70" x="292" y="576.4688"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="38" x="308" y="603.0781">Filter</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="50" x="302" y="619.0508">[Process]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="329" y="636.2207"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="44" x="305" y="653.8301">Filter 3</text><!--entity cont_out--><rect fill="#438DD5" height="108.0469" style="stroke: #3C7FC0; stroke-width: 1.5;" width="189" x="515.5" y="567.4688"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="90" x="565" y="594.0781">Transporter</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="86" x="567" y="610.0508">[Process (Rust)]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="612" y="627.2207"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="165" x="525.5" y="644.8301">Transports the data to the</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="101" x="559.5" y="662.4395">Hardware Diode</text><!--entity sys_hwdiode--><rect fill="#999999" height="40.125" style="stroke: #8A8A8A; stroke-width: 1.5;" width="143" x="538.5" y="770.4688"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="123" x="548.5" y="797.0781">Hardware Diode</text><!--link sys_tx to cont_incoming--><path d="M148,231.5438 C148,268.5068 148,320.8588 148,360.9238 " fill="none" id="sys_tx-cont_incoming" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="148,366.2428,152,357.2428,148,361.2428,144,357.2428,148,366.2428" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="85" x="149" y="277.9639">Protocol data</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="62" x="160.5" y="293.2773">[IP/specific]</text><!--link cont_incoming to cont_filter1--><path d="M257.695,420.4688 C309.26,420.4688 367.59,420.4688 405.483,420.4688 " fill="none" id="cont_incoming-cont_filter1" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="410.922,420.4688,401.922,416.4688,405.922,420.4688,401.922,424.4688,410.922,420.4688" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="117" x="275.75" y="398.9639">Standardized data</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="32" x="318.25" y="414.2773">[UDS]</text><!--link cont_filter1 to cont_filter2--><path d="M481.493,420.4688 C521.799,420.4688 587.424,420.4688 629.643,420.4688 " fill="none" id="cont_filter1-cont_filter2" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="634.673,420.4688,625.673,416.4688,629.673,420.4688,625.673,424.4688,634.673,420.4688" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="117" x="499.5" y="398.9639">Standardized data</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="32" x="542" y="414.2773">[UDS]</text><!--link cont_filter1 to cont_filter3--><path d="M410.751,454.6718 C396.997,469.0038 381.94,486.5728 371,504.4688 C358.363,525.1418 348.336,550.0448 341.065,571.4698 " fill="none" id="cont_filter1-cont_filter3" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="339.463,576.2668,346.1071,568.9965,341.0463,571.524,338.5187,566.4633,339.463,576.2668" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="117" x="372" y="518.9639">Standardized data</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="32" x="414.5" y="534.2773">[UDS]</text><!--link cont_filter2 to cont_out--><path d="M656.684,465.6338 C648.098,494.1108 636.839,531.4548 627.529,562.3328 " fill="none" id="cont_filter2-cont_out" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="626.052,567.2308,632.4811,559.7697,627.4962,562.4439,624.8221,557.459,626.052,567.2308" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="117" x="644" y="518.9639">Standardized data</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="32" x="686.5" y="534.2773">[UDS]</text><!--link cont_filter3 to cont_out--><path d="M362.27,621.4688 C399.085,621.4688 458.51,621.4688 509.93,621.4688 " fill="none" id="cont_filter3-cont_out" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="515.198,621.4688,506.198,617.4688,510.198,621.4688,506.198,625.4688,515.198,621.4688" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="117" x="380.25" y="599.9639">Standardized data</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="32" x="422.75" y="615.2773">[UDS]</text><!--link cont_out to sys_hwdiode--><path d="M610,675.7678 C610,705.7638 610,741.7685 610,765.1079 " fill="none" id="cont_out-sys_hwdiode" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="610,770.178,614,761.178,610,765.178,606,761.178,610,770.178" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="60" x="611" y="721.9639">Raw data</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="47" x="617.5" y="737.2773">[IP/UDP]</text><!--link cont_filter2 to cont_filter3--><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="119" x="330.5" y="830.8496">Open Source Data Diode</text><!--
+@startuml software_protocol_handling_incoming
+
+
+
+
+
+
+skinparam defaultTextAlignment center
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam rectangle {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam database {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam Arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+skinparam rectangle<<boundary>> {
+    Shadowing false
+    StereotypeFontSize 0
+    FontColor #444444
+    BorderColor #444444
+    BorderStyle dashed
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+
+skinparam rectangle<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+
+skinparam rectangle<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+skinparam database<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+skinparam database<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam database<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer
+Open Source Data Diode
+end footer
+
+
+hide stereotype
+sprite $user [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000025788300000000005886410000000000000
+000000000007DFFFFFFD9643347BFFFFFFFB400000000000
+0000000004EFFFFFFFFFFFFFFFFFFFFFFFFFFB1000000000
+000000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFD200000000
+00000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE10000000
+0000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB0000000
+000000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF5000000
+000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD000000
+000009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF200000
+00000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF600000
+00000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF800000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00000EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF700000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+0000008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD3000000
+000000014555555555555555555555555555555300000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+
+skinparam folderBackgroundColor<<FA5 USER>> White
+
+hide stereotype
+
+
+
+
+title 
+= Protocol handling
+== Incoming side
+(example logical flow)
+end title
+
+rectangle "==Sending network" <<boundary>> as nw_tx {
+    rectangle "==Sender\n\n \n" <<external_system>> as sys_tx
+}
+
+rectangle "==Ingress proxy\n<size:12>[System]</size>" <<boundary>> as alias {
+    rectangle "==Protocol Data Handler\n//<size:12>[Process]</size>//\n\n Protocol specific incoming data handler" <<container>> as cont_incoming
+    rectangle "==Filter\n//<size:12>[Process]</size>//\n\n Filter 1" <<container>> as cont_filter1
+    rectangle "==Filter\n//<size:12>[Process]</size>//\n\n Filter 2" <<container>> as cont_filter2
+    rectangle "==Filter\n//<size:12>[Process]</size>//\n\n Filter 3" <<container>> as cont_filter3
+    rectangle "==Transporter\n//<size:12>[Process (Rust)]</size>//\n\n Transports the data to the Hardware Diode" <<container>> as cont_out
+}
+
+rectangle "==Hardware Diode" <<external_system>> as sys_hwdiode
+
+sys_tx - -> cont_incoming : "===Protocol data\n//<size:12>[IP/specific]</size>//"
+cont_incoming -RIGHT-> cont_filter1 : "===Standardized data\n//<size:12>[UDS]</size>//"
+cont_filter1 -RIGHT-> cont_filter2 : "===Standardized data\n//<size:12>[UDS]</size>//"
+cont_filter1 -RIGHT-> cont_filter3 : "===Standardized data\n//<size:12>[UDS]</size>//"
+cont_filter2 -RIGHT-> cont_out : "===Standardized data\n//<size:12>[UDS]</size>//"
+cont_filter3 -RIGHT-> cont_out : "===Standardized data\n//<size:12>[UDS]</size>//"
+cont_out - -> sys_hwdiode : "===Raw data\n//<size:12>[IP/UDP]</size>//"
+
+cont_filter2 -[hidden]D- cont_filter3
+@enduml
+
+PlantUML version 1.2019.06(Fri May 24 19:10:25 CEST 2019)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Java Version: 1.8.0_211-b12
+Operating System: Windows 10
+OS Version: 10.0
+Default Encoding: Cp1252
+Language: en
+Country: US
+--></g></svg>

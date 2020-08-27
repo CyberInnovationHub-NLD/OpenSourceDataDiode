@@ -1,0 +1,88 @@
+[settings]
+path = "/home/osdd"
+stats_servers = ["10.0.0.1:8125", "127.0.0.1:7654"]
+syslog_host = "192.168.1.1"
+syslog_port = "8082"
+log_level = "Info"
+instance = "1"
+network = "ingress"
+stats_multiplexer_listening_port = "8125"
+
+[chain.TestTopic]
+protocol_handler = "kafka"
+filter_handlers = []
+transport_handler = "udp1"
+
+[chain.TestTopic2]
+protocol_handler = "kafka2"
+filter_handlers = ["secret_filter"]
+transport_handler = "udp2"
+
+[chain.stats]
+protocol_handler = "stats"
+filter_handlers = []
+transport_handler = "udp3"
+
+[protocolhandler.kafka]
+type = "ph_kafka_ingress"
+max_bytes_per_partition = "1048576"     #1 Mb
+topic_name = "TestTopic"
+host_kafka_server = "10.0.0.1"
+port_kafka_server = "9092"
+log_level = "Info"
+bip_buffer_element_count = "2"
+
+[protocolhandler.kafka2]
+type = "ph_kafka_ingress"
+max_bytes_per_partition = "1048576"     #1 Mb
+topic_name = "TestTopic2"
+host_kafka_server = "10.0.0.1"
+port_kafka_server = "9092"
+log_level = "Info"
+bip_buffer_element_count = "2"
+
+[protocolhandler.stats]
+type = "ph_udp_ingress"
+open_udp_port = "7654"
+listening_port = "7654"
+log_level = "Info"
+bip_buffer_element_count = "2"
+
+[filterhandler.secret_filter]
+type = "filter"
+log_level = "Info"
+word_to_filter = "SECRET"
+bip_buffer_element_count = "2"
+
+[protocolhandler.ingress_mock_handler]
+type = "ph_mock_ingress"
+
+[transporthandler.udp1]
+type = "transport_udp_send"
+receiver_address = "192.168.0.255"
+receiver_port = "1234" 
+sender_address = "192.168.0.255"
+sender_port = "1234"
+bip_buffer_element_count = "2"
+send_delay_ms = "5"
+log_level = "Info"
+
+[transporthandler.udp2]
+type = "transport_udp_send"
+receiver_address = "192.168.0.255"
+receiver_port = "1235"
+sender_address = "192.168.0.255"
+sender_port = "1235"
+bip_buffer_element_count = "2"
+send_delay_ms = "5"
+log_level = "Info"
+
+[transporthandler.udp3]
+type = "transport_udp_send"
+receiver_address = "192.168.0.255"
+receiver_port = "1236"
+sender_address = "192.168.0.255"
+sender_port = "1236"
+bip_buffer_element_count = "2"
+send_delay_ms = "5"
+log_level = "Info"

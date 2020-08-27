@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="755px" preserveAspectRatio="none" style="width:991px;height:755px;" version="1.1" viewBox="0 0 991 755" width="991px" zoomAndPan="magnify"><defs/><g><text fill="#000000" font-family="sans-serif" font-size="22" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="151" x="431.5" y="22.8379">Whitebox view</text><!--cluster nw_tx--><rect fill="#FFFFFF" height="164" style="stroke: #444444; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;" width="293" x="30" y="59.6719"/><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="130" x="111.5" y="78.2813">Sending network</text><!--cluster boundary_osdd--><rect fill="#FFFFFF" height="196" style="stroke: #444444; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;" width="864" x="116" y="296.6719"/><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="188" x="454" y="315.2813">Open Source Data Diode</text><text fill="#444444" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="51" x="522.5" y="331.2539">[System]</text><!--cluster new_rx--><rect fill="#FFFFFF" height="148" style="stroke: #444444; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;" width="270" x="677" y="557.6719"/><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="142" x="741" y="576.2813">Receiving network</text><!--entity sys_tx--><rect fill="#999999" height="92.9531" style="stroke: #8A8A8A; stroke-width: 1.5;" width="75" x="54.5" y="106.6719"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="55" x="64.5" y="133.2813">Sender</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="94" y="151.3301"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="94" y="168.9395"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="94" y="186.5488"/><!--entity sys_tx_log--><rect fill="#999999" height="92.9531" style="stroke: #8A8A8A; stroke-width: 1.5;" width="115" x="164.5" y="106.6719"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="95" x="174.5" y="133.2813">Log receiver</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="60" x="192" y="151.3301">(optional)</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="224" y="168.9395"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="224" y="186.5488"/><!--entity cont_incoming--><rect fill="#438DD5" height="125.6563" style="stroke: #3C7FC0; stroke-width: 1.5;" width="212" x="132" y="350.6719"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="105" x="185.5" y="377.2813">Ingress proxy</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="65" x="205.5" y="393.2539">[PC system]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="240" y="410.4238"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="168" x="152" y="428.0332">Incoming side, handles the</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="188" x="142" y="445.6426">various protocols that need to</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="97" x="189.5" y="463.252">be transported.</text><!--entity cont_hwdiode--><rect fill="#438DD5" height="108.0469" style="stroke: #3C7FC0; stroke-width: 1.5;" width="193" x="451.5" y="359.6719"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="123" x="486.5" y="386.2813">Hardware Diode</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="59" x="518.5" y="402.2539">[Hardware]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="550" y="419.4238"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="169" x="461.5" y="437.0332">The actual diode. Typically</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="162" x="467" y="454.6426">implemented in hardware.</text><!--entity cont_out--><rect fill="#438DD5" height="125.6563" style="stroke: #3C7FC0; stroke-width: 1.5;" width="212" x="752" y="350.6719"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="102" x="807" y="377.2813">Egress proxy</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="65" x="825.5" y="393.2539">[PC system]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="860" y="410.4238"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="170" x="771" y="428.0332">Outgoing side, handles the</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="188" x="762" y="445.6426">various protocols that need to</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="93" x="811.5" y="463.252">be transported</text><!--entity sys_rx--><rect fill="#999999" height="92.9531" style="stroke: #8A8A8A; stroke-width: 1.5;" width="87" x="693.5" y="596.6719"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="67" x="703.5" y="623.2813">Receiver</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="739" y="641.3301"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="739" y="658.9395"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="739" y="676.5488"/><!--entity sys_rx_log--><rect fill="#999999" height="92.9531" style="stroke: #8A8A8A; stroke-width: 1.5;" width="115" x="815.5" y="596.6719"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="95" x="825.5" y="623.2813">Log receiver</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="60" x="843" y="641.3301">(optional)</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="875" y="658.9395"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="875" y="676.5488"/><!--entity admin--><rect fill="#08427B" height="88.125" style="stroke: #073B6F; stroke-width: 1.5;" width="123" x="689.5" y="109.1719"/><image height="48" width="48" x="727" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAABuUlEQVR42u2Yv0oEMRDGp/QRfIR7BVs7Gx9AH0CwtrtKLNXSRsRSG8HCxkbQVrSykoOrzlILC9v4gwMRNptMMsnu3nHDFMcSLh/f/PsmsrY5HpTLUgHaOri8uHt+eJm8vs/wm8e38fn9aPekB0D7p7df3z+uxYC4sXfWEaD17SPIcAqDreqAQBMgpmnHV091ASm5+W8EtxYgQuCyDF7LA+JPXa5RieUBwbwzWHlAVLIFEB2rMKCk4rK0AC0gZzN9/S8soOnHpwWQvhtpATE4h5XUlrKnIKp06uxCS5poCzs6stvjzuF1XfmRVG4ZkihHMSp5SuXGJGG5LEAVPSIpb4qJfIQzQeF6OMORGXSHbCjLuAb1CYhti7whQHQ5PLrlcHh+kiAyN/RxFE0/9OYvH+dJw33gw/nB4bYa5Ltmokl4MTXqMi+sMFtSfFBEDWoD67bUkPSa+d/Gk3i7i6tvxE4LyLhgGOeu9ELPXzLFAVHJrkNrZreUFfN28S9l1x27upVSLwp5hlIYFqBm8a8ADRxQJIfszy72ZxrpeKxGR6xnltEbupkbXtkpbQsh6ozhV8kDCni1dcT8F2bsoAKLcdt7AAAAAElFTkSuQmCC" y="119.1719"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="103" x="699.5" y="183.7813">Administrator</text><!--link sys_tx to cont_incoming--><path d="M83.2486,199.9349 C80.5987,224.8339 80.8598,255.5819 92,280.6719 C103.1613,305.8099 121.737,328.1889 141.962,347.0599 " fill="none" id="sys_tx-cont_incoming" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="145.756,350.5429,141.8301,341.5103,142.0723,347.162,136.4206,347.4042,145.756,350.5429" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="127" x="93" y="262.167">Sends protocol data</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="62" x="125.5" y="277.4805">[IP/specific]</text><!--link cont_incoming to sys_tx_log--><path d="M234.154,350.5379 C231.392,305.9189 227.717,246.5319 225.133,204.7919 " fill="none" id="cont_incoming-sys_tx_log" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="224.824,199.7919,221.3871,209.0216,225.1326,204.7823,229.3719,208.5278,224.824,199.7919" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="52" x="231" y="262.167">Logging</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="41" x="236.5" y="277.4805">[syslog]</text><!--link cont_incoming to cont_hwdiode--><path d="M344.251,413.6719 C377.192,413.6719 413.404,413.6719 446.047,413.6719 " fill="none" id="cont_incoming-cont_hwdiode" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="451.254,413.6719,442.254,409.6719,446.254,413.6719,442.254,417.6719,451.254,413.6719" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="71" x="362.25" y="392.167">Sends data</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="47" x="374.25" y="407.4805">[IP/UDP]</text><!--link cont_hwdiode to cont_out--><path d="M644.811,413.6719 C677.103,413.6719 713.338,413.6719 746.645,413.6719 " fill="none" id="cont_hwdiode-cont_out" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="751.965,413.6719,742.965,409.6719,746.965,413.6719,742.965,417.6719,751.965,413.6719" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="71" x="662.75" y="392.167">Sends data</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="47" x="674.75" y="407.4805">[IP/UDP]</text><!--link cont_out to sys_rx_log--><path d="M862.099,476.8369 C864.462,512.6779 867.397,557.1859 869.625,590.9909 " fill="none" id="cont_out-sys_rx_log" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="869.977,596.3219,873.3768,587.0784,869.6484,591.3327,865.3941,587.6042,869.977,596.3219" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="52" x="866" y="523.167">Logging</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="41" x="871.5" y="538.4805">[syslog]</text><!--link cont_out to sys_rx--><path d="M751.846,475.7229 C741.928,485.4939 733.263,496.4689 727,508.6719 C714.066,533.8729 715.713,565.3359 720.99,591.3869 " fill="none" id="cont_out-sys_rx" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="722.091,596.5219,724.1151,586.8833,721.0427,591.633,716.2929,588.5606,722.091,596.5219" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="127" x="728" y="523.167">Sends protocol data</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="62" x="760.5" y="538.4805">[IP/specific]</text><!--link admin to cont_incoming--><path d="M689.465,176.8459 C624.585,201.5399 520.05,243.5799 434,288.6719 C400.516,306.2179 365.231,327.5719 333.969,347.5799 " fill="none" id="admin-cont_incoming" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="329.387,350.5219,339.1217,349.0265,333.5947,347.821,334.8002,342.2941,329.387,350.5219" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="68" x="519" y="262.167">Configures</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="82" x="512" y="277.4805">[Web interface]</text><!--link admin to cont_out--><path d="M742.358,197.2999 C739.184,222.3599 738.39,254.1289 748,280.6719 C756.664,304.6009 771.769,327.2409 788.061,346.7939 " fill="none" id="admin-cont_out" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="791.334,350.6619,788.576,341.2071,788.1051,346.8443,782.4678,346.3734,791.334,350.6619" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="68" x="756" y="262.167">Configures</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="82" x="749" y="277.4805">[Web interface]</text><!--link admin to cont_out--><!--link nw_tx to cont_incoming--><!--link sys_tx to sys_tx_log--><!--link sys_rx to sys_rx_log--><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="119" x="447.5" y="742.0527">Open Source Data Diode</text><!--
+@startuml overview_whitebox
+
+
+
+
+
+
+skinparam defaultTextAlignment center
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam rectangle {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam database {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam Arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+skinparam rectangle<<boundary>> {
+    Shadowing false
+    StereotypeFontSize 0
+    FontColor #444444
+    BorderColor #444444
+    BorderStyle dashed
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+
+skinparam rectangle<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+
+skinparam rectangle<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+skinparam database<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+skinparam database<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam database<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer
+Open Source Data Diode
+end footer
+
+
+hide stereotype
+sprite $user [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000025788300000000005886410000000000000
+000000000007DFFFFFFD9643347BFFFFFFFB400000000000
+0000000004EFFFFFFFFFFFFFFFFFFFFFFFFFFB1000000000
+000000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFD200000000
+00000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE10000000
+0000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB0000000
+000000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF5000000
+000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD000000
+000009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF200000
+00000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF600000
+00000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF800000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00000EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF700000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+0000008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD3000000
+000000014555555555555555555555555555555300000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+
+skinparam folderBackgroundColor<<FA5 USER>> White
+
+hide stereotype
+
+
+
+
+title 
+= Whitebox view
+end title
+
+rectangle "<$user>\n==Administrator" <<person>> as admin
+
+rectangle "==Sending network" <<boundary>> as nw_tx {
+    rectangle "==Sender\n\n \n" <<external_system>> as sys_tx
+    rectangle "==Log receiver\n(optional)\n\n " <<external_system>> as sys_tx_log
+}
+
+rectangle "==Open Source Data Diode\n<size:12>[System]</size>" <<boundary>> as boundary_osdd {
+    rectangle "==Ingress proxy\n//<size:12>[PC system]</size>//\n\n Incoming side, handles the various protocols that need to be transported." <<container>> as cont_incoming
+    rectangle "==Hardware Diode\n//<size:12>[Hardware]</size>//\n\n The actual diode. Typically implemented in hardware." <<container>> as cont_hwdiode
+    rectangle "==Egress proxy\n//<size:12>[PC system]</size>//\n\n Outgoing side, handles the various protocols that need to be transported" <<container>> as cont_out
+}
+
+rectangle "==Receiving network" <<boundary>> as new_rx {
+    rectangle "==Receiver\n\n \n" <<external_system>> as sys_rx
+    rectangle "==Log receiver\n(optional)\n\n " <<external_system>> as sys_rx_log
+}
+
+sys_tx - -> cont_incoming : "===Sends protocol data\n//<size:12>[IP/specific]</size>//"
+cont_incoming - -> sys_tx_log : "===Logging\n//<size:12>[syslog]</size>//"
+cont_incoming -RIGHT-> cont_hwdiode : "===Sends data\n//<size:12>[IP/UDP]</size>//"
+cont_hwdiode -RIGHT-> cont_out : "===Sends data\n//<size:12>[IP/UDP]</size>//"
+cont_out - -> sys_rx_log : "===Logging\n//<size:12>[syslog]</size>//"
+cont_out - -> sys_rx : "===Sends protocol data\n//<size:12>[IP/specific]</size>//"
+admin - -> cont_incoming : "===Configures\n//<size:12>[Web interface]</size>//"
+admin - -> cont_out : "===Configures\n//<size:12>[Web interface]</size>//"
+
+admin -[hidden]D- cont_out
+nw_tx -[hidden]D- cont_incoming
+sys_tx -[hidden]R- sys_tx_log
+sys_rx -[hidden]R- sys_rx_log
+
+@enduml
+
+PlantUML version 1.2019.06(Fri May 24 19:10:25 CEST 2019)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Java Version: 1.8.0_211-b12
+Operating System: Windows 10
+OS Version: 10.0
+Default Encoding: Cp1252
+Language: en
+Country: US
+--></g></svg>

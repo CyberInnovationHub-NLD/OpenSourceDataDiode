@@ -1,0 +1,64 @@
+[settings]
+path = "/home/osdd"
+stats_servers = ["192.168.1.1:8125", "10.0.0.2:8125"]
+syslog_host = "192.168.1.1"
+syslog_port = "8082"
+log_level = "Info"
+instance = "1"
+network = "egress"
+stats_multiplexer_listening_port = "8125"
+
+[chain.TestTopic]
+protocol_handler = "kafka"
+filter_handlers = []
+transport_handler = "udp1"
+
+[chain.TestTopic2]
+protocol_handler = "kafka"
+filter_handlers = []
+transport_handler = "udp2"
+
+[chain.stats]
+protocol_handler = "stats"
+filter_handlers = []
+transport_handler = "udp3"
+
+[protocolhandler.kafka]
+type = "ph_kafka_egress"
+host_kafka_server = "10.0.0.2"
+port_kafka_server = "9092"
+bip_buffer_element_count = "10"
+in_replacement = "test"
+out_replacement = "test2"
+log_level = "Info"
+
+[protocolhandler.stats]
+type = "ph_udp_egress"
+listening_port = "7654"
+bip_buffer_element_count = "2"
+udp_receiver_host = "172.17.0.1"
+udp_receiver_port = "8125"
+
+[protocolhandler.mock]
+type = "ph_mock_egress"
+
+[transporthandler.udp1]
+type = "transport_udp_receive"
+receiver_address = "192.168.0.255"
+receiver_port = "1234"
+bip_buffer_element_count = "100"
+log_level = "Info"
+
+[transporthandler.udp2]
+type = "transport_udp_receive"
+receiver_address = "192.168.0.255"
+receiver_port = "1235"
+bip_buffer_element_count = "2"
+log_level = "Info"
+
+[transporthandler.udp3]
+type = "transport_udp_receive"
+receiver_address = "192.168.0.255"
+receiver_port = "1236"
+bip_buffer_element_count = "2"
+log_level = "Info"

@@ -1,0 +1,3 @@
+GPIO_DDIO_out_sim/GPIO_DDIO_out.vhd
+GPIO_DDIO_out_sim/altera_gpio_lite/altera_gpio_lite.sv
+GPIO_DDIO_out_sim/altera_gpio_lite/mentor/altera_gpio_lite.sv

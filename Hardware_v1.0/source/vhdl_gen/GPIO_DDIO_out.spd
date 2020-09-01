@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simPackage>
+ <file
+   path="GPIO_DDIO_out_sim/altera_gpio_lite/altera_gpio_lite.sv"
+   type="SYSTEM_VERILOG"
+   library="GPIO_DDIO_out" />
+ <file
+   path="GPIO_DDIO_out_sim/altera_gpio_lite/mentor/altera_gpio_lite.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="GPIO_DDIO_out"
+   simulator="modelsim" />
+ <file path="GPIO_DDIO_out_sim/GPIO_DDIO_out.vhd" type="VHDL" />
+ <topLevel name="GPIO_DDIO_out" />
+ <deviceFamily name="max10" />
+</simPackage>

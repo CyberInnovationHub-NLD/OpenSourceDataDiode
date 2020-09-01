@@ -1,0 +1,16 @@
+Test diode functionality:
+1) fill the arp tables manually (e.x.  sudo arp -s ip mac)
+2) ping from black to red 
+3) monitor red side with for example trafshow or wireshark
+4) ping red to black
+5) monitor black side
+
+
+bandwidth Test
+#note that red side has ip 192.168.0.9 and black side has 192.168.0.1
+
+1) fill the arp tables manually (e.x.  sudo arp -s ip mac)
+2) start the receiver at the red side  (RUST_LOG=transport_udp=info ./transport_udp_receive --receiver_address 192.168.0.9)
+3) start the sender ./transport_udp_send_test --receiver_address 192.168.0.9 --sender_address 192.168.0.1
+4) optional: monitor with speedometer RED and/or Black side. 
+5) note that now and then there is packet loss on the line probably due to the kernel (overall it works great).

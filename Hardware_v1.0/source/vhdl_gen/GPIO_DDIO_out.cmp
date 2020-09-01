@@ -1,0 +1,8 @@
+	component GPIO_DDIO_out is
+		port (
+			outclock : in  std_logic                     := 'X';             -- export
+			din      : in  std_logic_vector(11 downto 0) := (others => 'X'); -- export
+			pad_out  : out std_logic_vector(5 downto 0)                      -- export
+		);
+	end component GPIO_DDIO_out;
+

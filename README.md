@@ -1,6 +1,6 @@
 # Introduction
 
-This codebase contains a prototype version for a proxy framework for data diodes. It contains a proxy implementation for the Kafka protocol and it also transports metrics (statsd format) through the diode.
+This codebase contains both a prototype version for a proxy framework for data diodes and the hardware schematics of the diode itself. Currently the OSDD contains a proxy implementation for the Kafka protocol and it also transports metrics (statsd format) through the diode.
 
 All code has been written primarily for Linux systems.
 

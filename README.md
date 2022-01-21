@@ -42,3 +42,7 @@ There is a brief configuration document available:
 # Design choices
 There is a brief design choices document available:
 [docs/design_choices.md](docs/design_choices.md)
+
+# Update History
+2021 - to be added
+2022 - to be added

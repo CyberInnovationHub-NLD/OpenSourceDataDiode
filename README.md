@@ -8,7 +8,13 @@ All code has been written primarily for Linux systems.
 
 Currently license is Apache 2. Code will be published under EUPL. 
 
-Untill formal publication code is not for distribution. 
+Untill formal publication the original codebase is NOT for distribution and only intended for use by the OSDD community members. 
+Branches are free to distribute and publishe on discretion of the repective branche owner/moderator.
+
+# Standaard for Public Code
+
+We endorse the standard for public code as defined by the foundation for public code. We ask our contributors to endorse this standaard as well.
+Full information : https://standard.publiccode.net/
 
 # Build
 Make sure a recent Rust compiler (recently tested with 1.45) and Docker are installed.

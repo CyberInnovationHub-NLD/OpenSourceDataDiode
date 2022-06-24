@@ -42,7 +42,7 @@ To support Kafka as an application protocol and have the ability to filter Kafka
 * A Kafka producer that sends data to a Kafka server 
 
 # OSDD Process model
-Earlier several software components were identified that form an ingress or egress proxy. The next question to answer is how to run these components. The next question to answer is how to run these components. Do they run on different machines? Do they run in separate processes or as threads in a single process?
+Earlier several software components were identified that form an ingress or egress proxy. The next question to answer is how to run these components. Do they run on different machines? Do they run in separate processes or as threads in a single process?
 
 There are three major choices that influence the answer to these questions:
 1.	The wish to deploy the OSDD on low-level hardware on a single machine

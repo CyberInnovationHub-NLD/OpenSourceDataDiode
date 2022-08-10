@@ -1,6 +1,6 @@
 # Introduction
 
-This codebase contains both a prototype version for a proxy framework for data diodes and the hardware schematics of the diode itself. Currently the OSDD contains a proxy implementation for the Kafka protocol and it also transports metrics (statsd format) through the diode.
+This codebase contains both a prototype version for a proxy framework for data diodes and the hardware schematics of the diode itself. Currently, the OSDD contains a proxy implementation for the Kafka protocol and it also transports metrics (statsd format) through the diode.
 
 All code has been written primarily for Linux systems. 
 
@@ -11,7 +11,7 @@ Currently license is Apache 2. Code will be published under EUPL.
 Untill formal publication the original codebase is NOT for distribution and only intended for use by the OSDD community members. 
 Branches are free to distribute and publishe on discretion of the repective branche owner/moderator.
 
-# Standaard for Public Code
+# Standard for Public Code
 
 We endorse the standard for public code as defined by the foundation for public code. We ask our contributors to endorse this standaard as well.
 Full information : https://standard.publiccode.net/

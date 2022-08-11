@@ -30,7 +30,7 @@ The config file contains some settings that are used by multiple handlers. Those
 
 
 ## Chain
-A chain consists of exactly one transport handler and exactly one protocol handler. A chain can also contain one or more filters. Filters are placed between the protocol handler and the transport handler. Be carefull when adding filters as this can greatly reduce performance. Those settings must be placed under the `[chain.name]` tag where `name` is the name of the chain.
+A chain consists of exactly one transport handler and exactly one protocol handler. A chain can also contain one or more filters. Filters are placed between the protocol handler and the transport handler. Be careful when adding filters as this can greatly reduce performance. Those settings must be placed under the `[chain.name]` tag where `name` is the name of the chain.
 
 #### Settings
 * `protocol_handler` - String, the given protocol handler is added to the chain. The name must match the name given in the handler(see Handler).
@@ -44,12 +44,12 @@ A chain consists of exactly one transport handler and exactly one protocol handl
 `transport_handler = "udp2"`
 
 ## Handler
-A handler is a part of the chain. There is one mandatory fields. More fields can be added for more custom commandline arguments. Those settings are under the [protocoltype.name] tag. Where `protocoltype` can be `transporthandler`, `filterhandler` or `protocolhandler` and `name` is the name of the handler(linking to the name given in the Chain).
+A handler is a part of the chain. There is one mandatory field. More fields can be added for more custom commandline arguments. Those settings are under the [protocoltype.name] tag. Where `protocoltype` can be `transporthandler`, `filterhandler` or `protocolhandler` and `name` is the name of the handler (linking to the name given in the Chain).
 
 #### Settings
 * `type` - Executable name of the handler.
 * optional: `open_udp_port` - Expose the udp port of the docker container. 
-* `customfield` - There can be customfield added to the handler
+* `customfield` - Customfield can be added to the handler
 
 #### Example 
 `[protocolhandler.kafka]`<br>

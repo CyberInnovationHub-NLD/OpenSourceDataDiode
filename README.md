@@ -1,19 +1,16 @@
 # Introduction
 
+The Open Source Data Diode (OSDD) is a mid-tier, low-cost, open source data diode aimed at use by public and private parties in the Netherlands. The OSDD consists of a hardware device, the physical diode, and a software suite in which additional functionality can be programmed for specific use cases.
+
 This codebase contains both a prototype version for a proxy framework for data diodes and the hardware schematics of the diode itself. Currently, the OSDD contains a proxy implementation for the Kafka protocol and it also transports metrics (statsd format) through the diode.
 
 All code have been written primarily for Linux systems. 
 
-# License Information
-
-The current license is Apache 2. The code will be published under EUPL. 
-
-Until the formal publication, the original codebase is NOT for distribution and only intended for use by the OSDD community members. 
-Branches are free to distribute and publish on discretion of the repective branche owner/moderator.
+The OSDD demonstrator was developed in a collaboration between the Ministry of Defense, The Hague Security Delta and Technolution.
 
 # Standard for Public Code
 
-We endorse the standard for public code as defined by the Foundation for Public Code. We ask our contributors to endorse this standard as well.
+We endorse the Standard for Public Code as defined by the Foundation for Public Code. We ask our contributors to endorse this standard as well.
 Full information: https://standard.publiccode.net/
 
 # Build
@@ -49,6 +46,9 @@ There is a brief configuration document available:
 There is a brief design choices document available:
 [docs/design_choices.md](docs/design_choices.md)
 
-# Update History
-2021 - to be added
-2022 - to be added
+# License Information
+
+The current license is Apache 2. The code will be published under EUPL. 
+
+Until the formal publication, the original codebase is NOT for distribution and only intended for use by the OSDD community members. 
+Branches are free to distribute and publish on discretion of the repective branche owner/moderator.

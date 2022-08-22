@@ -1,4 +1,4 @@
-# Introduction
+# 1. Introduction
 
 The Open Source Data Diode (OSDD) is a mid-tier, low-cost, open source data diode aimed at use by public and private parties in the Netherlands. The OSDD consists of a hardware device, the physical diode, and a software suite in which additional functionality can be programmed for specific use cases.
 
@@ -8,12 +8,23 @@ All code have been written primarily for Linux systems.
 
 The OSDD demonstrator was developed in a collaboration between the Ministry of Defense, The Hague Security Delta and Technolution.
 
-# Standard for Public Code
+## Mission, vision and Objectives
+To be added
+
+# 2. Policy
+To be added
+
+## Standard for Public Code
 
 We endorse the Standard for Public Code as defined by the Foundation for Public Code. We ask our contributors to endorse this standard as well.
 Full information: https://standard.publiccode.net/
 
-# Build
+## Guidelines for developers
+To be added
+
+# 3. Instructions
+
+## Build
 Make sure a recent Rust compiler (recently tested with 1.45) and Docker are installed.
 
 You also need MUSL support for RUST: 
@@ -34,19 +45,19 @@ Copy the tars to your target systems, unpack them and install the *osdd* service
 ## Result
 This build results in two tar files, one for the ingress proxy, one for the egress proxy. Both tar files contain the OSDD service (executable and definition) and a bunch of exported docker containers. 
 
-# Installation
+## Installation
 There is a brief installation document available:
 [docs/installation.md](docs/installation.md)
 
-# Configuration
+## Configuration
 There is a brief configuration document available:
 [docs/config_file_explanation.md](docs/config_file_explanation.md)
 
-# Design choices
+## Design choices
 There is a brief design choices document available:
 [docs/design_choices.md](docs/design_choices.md)
 
-# License Information
+# 4. License Information
 
 The current license is Apache 2. The code will be published under EUPL. 
 

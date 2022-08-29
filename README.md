@@ -73,7 +73,7 @@ Contributions are what make the open source community such an amazing place to l
 
 Get started by reading our contributors guide.
 
-Please note that this project is released with a code of conduct. By participating in this project you agree to abide by its terms. 
+Please note that this project is released with a [code of conduct](https://github.com/CyberInnovationHub-NLD/OpenSourceDataDiode-OSDD-/blob/master/CODE_OF_CONDUCT.md). By participating in this project you agree to abide by its terms. 
 
 # 6. License Information
 

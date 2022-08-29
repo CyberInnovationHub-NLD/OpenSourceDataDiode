@@ -1,5 +1,7 @@
-# 1. Introduction
+# 1. About the Cyber Innovation Hub
+The Cyber Innovation Hub, established in 2019 from the Ministry of Defence, ensures that departments, research institutions and companies work together on joint security issues within the field of cyber (security). The aim is to strengthen cyber knowledge and skills in the Netherlands, facilitate innovations and experiments and build an ecosystem of cyber experts, innovators and other partners to reduce cyber threats.
 
+# 2. Introduction Open Source Data Diode
 The Open Source Data Diode (OSDD) is a mid-tier, low-cost, open source data diode aimed at use by public and private parties in the Netherlands. The OSDD consists of a hardware device, the physical diode, and a software suite in which additional functionality can be programmed for specific use cases.
 
 This codebase contains both a prototype version for a proxy framework for data diodes and the hardware schematics of the diode itself. Currently, the OSDD contains a proxy implementation for the Kafka protocol and it also transports metrics (statsd format) through the diode.
@@ -8,21 +10,19 @@ All code have been written primarily for Linux systems.
 
 The OSDD demonstrator was developed in a collaboration between the Ministry of Defense, The Hague Security Delta and Technolution.
 
-## Mission, vision and Objectives
-To be added
+![image](https://user-images.githubusercontent.com/104058636/187169728-0fa5b9c2-c291-43c4-81c8-09dcc3c0a1d8.png)
 
-# 2. Policy
-To be added
+# 3. Policy
+The Cyber Innovation Hub is included in the Defence Cyber Strategy ([Defensie Cyber Strategie](https://www.defensie.nl/binaries/defensie/documenten/publicaties/2018/11/12/defensie-cyber-strategie-2018/web_Brochure+Defensie+Cyber+Strategie.pdf)) 2018 Dutch Cyber Security Agenda ([Nederlandse Cybersecurity Agenda (NCSA)](https://www.ncsc.nl/onderwerpen/nederlandse-cyber-security-agenda)) 2020. 
 
 ## Standard for Public Code
-
 We endorse the Standard for Public Code as defined by the Foundation for Public Code. We ask our contributors to endorse this standard as well.
-Full information: https://standard.publiccode.net/
+For the full information, please check https://standard.publiccode.net/
 
 ## Guidelines for developers
 To be added
 
-# 3. Instructions
+# 4. Instructions
 
 ## Build
 Make sure a recent Rust compiler (recently tested with 1.45) and Docker are installed.
@@ -57,7 +57,17 @@ There is a brief configuration document available:
 There is a brief design choices document available:
 [docs/design_choices.md](docs/design_choices.md)
 
-# 4. License Information
+##Support
+In case you need support with the set-up of the OSDD, you can contact Serina (serina.vandekragt@ictu.nl)
+
+##Roadmap
+To be added
+
+# 5. Contributing, authors and acknowledgement
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated. If you have a suggestion that would make this better, please fork the repo and create a pull request. 
+
+
+# 6. License Information
 
 The current license is Apache 2. The code will be published under EUPL. 
 

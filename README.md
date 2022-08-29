@@ -19,7 +19,7 @@ The Cyber Innovation Hub is included in the Defence Cyber Strategy ([Defensie Cy
 We endorse the Standard for Public Code as defined by the Foundation for Public Code. We ask our contributors to endorse this standard as well.
 For the full information, please check https://standard.publiccode.net/
 
-![image](https://user-images.githubusercontent.com/104058636/187181432-b95e32c1-1438-4dbe-b8e1-343a645dca95.png)
+![image](https://user-images.githubusercontent.com/104058636/187181926-5433c767-6fa0-4e04-b89f-4fb818e9a4e0.png)
 
 A video introduction to Standard for Public Code from Creative Commons Global Summit 2020 (4:12) on YouTube.
 

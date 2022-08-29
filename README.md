@@ -1,7 +1,7 @@
 # 1. About the Cyber Innovation Hub
 The Cyber Innovation Hub, established in 2019 from the Ministry of Defence, ensures that departments, research institutions and companies work together on joint security issues within the field of cyber (security). The aim is to strengthen cyber knowledge and skills in the Netherlands, facilitate innovations and experiments and build an ecosystem of cyber experts, innovators and other partners to reduce cyber threats.
 
-# 2. Introduction Open Source Data Diode
+# 2. Introduction 'Open Source Data Diode'
 The Open Source Data Diode (OSDD) is a mid-tier, low-cost, open source data diode aimed at use by public and private parties in the Netherlands. The OSDD consists of a hardware device, the physical diode, and a software suite in which additional functionality can be programmed for specific use cases.
 
 This codebase contains both a prototype version for a proxy framework for data diodes and the hardware schematics of the diode itself. Currently, the OSDD contains a proxy implementation for the Kafka protocol and it also transports metrics (statsd format) through the diode.
@@ -18,6 +18,11 @@ The Cyber Innovation Hub is included in the Defence Cyber Strategy ([Defensie Cy
 ## Standard for Public Code
 We endorse the Standard for Public Code as defined by the Foundation for Public Code. We ask our contributors to endorse this standard as well.
 For the full information, please check https://standard.publiccode.net/
+
+![image](https://user-images.githubusercontent.com/104058636/187181432-b95e32c1-1438-4dbe-b8e1-343a645dca95.png)
+
+A video introduction to Standard for Public Code from Creative Commons Global Summit 2020 (4:12) on YouTube.
+
 
 ## Guidelines for developers
 To be added
@@ -64,8 +69,11 @@ In case you need support with the set-up of the OSDD, you can contact Serina (se
 To be added
 
 # 5. Contributing, authors and acknowledgement
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated. If you have a suggestion that would make this better, please fork the repo and create a pull request. 
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated. 
 
+Get started by reading our contributors guide.
+
+Please note that this project is released with a code of conduct. By participating in this project you agree to abide by its terms. 
 
 # 6. License Information
 

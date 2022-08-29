@@ -57,10 +57,10 @@ There is a brief configuration document available:
 There is a brief design choices document available:
 [docs/design_choices.md](docs/design_choices.md)
 
-##Support
+## Support
 In case you need support with the set-up of the OSDD, you can contact Serina (serina.vandekragt@ictu.nl)
 
-##Roadmap
+## Roadmap
 To be added
 
 # 5. Contributing, authors and acknowledgement

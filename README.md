@@ -71,7 +71,7 @@ To be added
 # 5. Contributing, authors and acknowledgement
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated. 
 
-Get started by reading our contributors guide.
+Get started by reading our [contributors guide](https://github.com/CyberInnovationHub-NLD/OpenSourceDataDiode-OSDD-/blob/master/Code%20of%20Conduct.md).
 
 Please note that this project is released with a [code of conduct](https://github.com/CyberInnovationHub-NLD/OpenSourceDataDiode-OSDD-/blob/master/CODE_OF_CONDUCT.md). By participating in this project you agree to abide by its terms. 
 

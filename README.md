@@ -1,10 +1,17 @@
 # 1. About the Cyber Innovation Hub
 The Cyber Innovation Hub, established in 2019 from the Ministry of Defence, ensures that departments, research institutions and companies work together on joint security issues within the field of cyber (security). The aim is to strengthen cyber knowledge and skills in the Netherlands, facilitate innovations and experiments and build an ecosystem of cyber experts, innovators and other partners to reduce cyber threats.
 
-# 2. Introduction 'Open Source Data Diode'
-The Open Source Data Diode (OSDD) is a mid-tier, low-cost, open source data diode aimed at use by public and private parties in the Netherlands. The OSDD consists of a hardware device, the physical diode, and a software suite in which additional functionality can be programmed for specific use cases.
+Securing networks is an important point of attention within Cyber. Gaining access to networks by intercepting or modifying network traffic is the basis for many security breeches. One of the problems with securing networks can be traced back to the organization of the current IP-based network traffic. This is bi-directional (2 way traffic), because guaranteed delivery is requested in the protocol. There are various devices or software for securing networks, such as Firewalls, Intruder Detection Systems, Intruder Prevention Systems and data diodes. They all have specific functionality that increases network security. 
 
-This codebase contains both a prototype version for a proxy framework for data diodes and the hardware schematics of the diode itself. Currently, the OSDD contains a proxy implementation for the Kafka protocol and it also transports metrics (statsd format) through the diode.
+A data diode is a device that physically enforces uni-directional (one-way) network traffic. This creates an additional layer of security, as the diode enforces that traffic can only flow from network A to network B, thus protecting network A. For more information about data diodes, see [this document](https://github.com/CyberInnovationHub-NLD/OpenSourceDataDiode-OSDD-/blob/master/General_docs/About%20the%20OSDD/Background%20Information%20about%20the%20OSDD.docx).
+
+
+# 2. Introduction 'Open Source Data Diode'
+The invention of a data diode is not new. But the fact that the Open-Source Data Diode is offered low-end, low-cost, and as the name suggests, open source is something new. The Open Source Data Diode (OSDD) is a mid-tier, low-cost, open source data diode aimed at use by public and private parties in the Netherlands. 
+
+The currently available data diodes are mainly used for highly classified domains, where a high degree of information security applies. The high demands in highly classified domains make them relatively complex and expensive. However, the OSDD is based on a simple but reliable design and use at low costs, which makes the product more accessible and affordable for a multitude of companies, (semi) governments and individuals. In addition, the basic principle is that the OSDD can be used flexibly.
+
+The OSDD consists of a hardware device, the physical diode, and a software suite in which additional functionality can be programmed for specific use cases. The codebase contains both a prototype version for a proxy framework for data diodes and the hardware schematics of the diode itself. Currently, the OSDD contains a proxy implementation for the Kafka protocol and it also transports metrics (statsd format) through the diode.
 
 All code have been written primarily for Linux systems. 
 

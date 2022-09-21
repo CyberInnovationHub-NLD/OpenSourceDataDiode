@@ -19,8 +19,7 @@ This way we created a one to many datadiode setup but this could also be done wi
 
 ![image](https://user-images.githubusercontent.com/104058636/191472684-c4fce104-1d5e-4124-ab47-168cf9e8fe03.png)
 
-For training you can use a managed switch: [€25 euro data-diode demonstrator](https://github.com/Vrolijk/OSDD/blob/main/examples/25_euro_data-diode_demonstator.md)
-
+For training you can use a managed switch: [€25 euro data-diode demonstrator](https://github.com/CyberInnovationHub-NLD/OpenSourceDataDiode-OSDD-/blob/master/Examples/Update%2025_euro_data-diode_demonstator.md)
 ## More secure basic setup
 
 In this setup we used 2 TP-Link MC210CS single mode Gigabit mediaconverters, one single mode 50/50 splitter and a fiber filter for additional security.

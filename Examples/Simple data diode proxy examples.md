@@ -13,12 +13,12 @@
 
 
 # 1. Packet loss (almost) explained
-Packet loss explained
+[Packet loss explained](https://github.com/CyberInnovationHub-NLD/OpenSourceDataDiode-OSDD-/blob/master/Examples/Packetloss_explained.md)
 
 # 2. Example data-diode hardware setups
-Datadiode hardware setups
+[Datadiode hardware setups](https://github.com/CyberInnovationHub-NLD/OpenSourceDataDiode-OSDD-/blob/master/Examples/datadiode_hardware_setups.md)
 
-Extra: €25 euro functional data-diode demonstrator
+Extra: [€25 euro functional data-diode demonstrator](https://github.com/CyberInnovationHub-NLD/OpenSourceDataDiode-OSDD-/blob/master/Examples/Update%2025_euro_data-diode_demonstator.md), for educational purposes.
 
 # 3. Send large file or multiple files data-diode using UDPcast
 In this example we will show how to send one or multiple files trough a data-diode using UDPCAST on Linux. UDPcast is also available for Windows. For more information about UDPcast see http://www.udpcast.linux.lu/

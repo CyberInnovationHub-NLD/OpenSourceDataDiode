@@ -21,9 +21,9 @@
 Extra: [€25 euro functional data-diode demonstrator](https://github.com/CyberInnovationHub-NLD/OpenSourceDataDiode-OSDD-/blob/master/Set-up_examples/Update%2025_euro_data-diode_demonstator.md), for educational purposes.
 
 # 3. Send large file or multiple files data-diode using UDPcast
-In this example we will show how to send one or multiple files trough a data-diode using UDPCAST on Linux. UDPcast is also available for Windows. For more information about UDPcast see http://www.udpcast.linux.lu/
+In this example, we will show how to send one or multiple files trough a data-diode using UDPCAST on Linux. UDPcast is also available for Windows. For more information about UDPcast see http://www.udpcast.linux.lu/
 
-For this example we used 2 proxies with a gigabit data-diode in the middle.
+For this example, we used 2 proxies with a gigabit data-diode in the middle.
 
 Configure the senders network interface connected to the data-diode to 10.0.0.1, subnet 255.255.255.0 and gateway.
 
@@ -67,7 +67,7 @@ Sender:
 ```tar -c <</data/>> | udp-sender --interface <<enp0s8>> --async --fec 8x8/64 --max-bitrate <<600Mbps>> --broadcast --autostart 3 --rexmit-hello-interval 1000 --nokbd```
 
 # 5. Tail files using netcat
-For sending data directly to an IP address first we need to add an arp entry at the sender. To simplify this we use a layer 2 broadcast address. Please note that sending data to fast can cause packet loss and netcat will crash.
+For sending data directly to an IP address first, we need to add an arp entry at the sender. To simplify this, we use a layer 2 broadcast address. Please note that sending data too fast can cause packet loss and netcat will crash.
 
 ```sudo arp -i <<enp0s8>> -s <<10.0.0.2>> ff:ff:ff:ff:ff:ff```
 
@@ -88,7 +88,7 @@ Open VLC media player and go to
 
 Sender:
 
-First make sure your sender knowns the correct interface to send the data with an ARP inject.
+First, make sure your sender knowns the correct interface to send the data with an ARP inject.
 
 ```sudo arp -i <<enp0s8>> -s <<10.0.0.2>> ff:ff:ff:ff:ff:ff```
 

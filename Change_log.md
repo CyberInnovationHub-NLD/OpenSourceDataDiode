@@ -8,7 +8,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 # Example
 ## [Unreleased] - yyyy-mm-dd
  
-Here we write upgrading notes for brands. It's a team effort to make them as
+Here, we write upgrading notes. It's a team effort to make them as
 straightforward as possible.
  
 ### Added

@@ -1,6 +1,6 @@
 Intro
 -----
-This is the design document for the open source data diode. This document describes the major design decisions for this prototype. 
+This is the design document for the Open Source Data Diode (OSDD). This document describes the major design decisions for this prototype. 
 
  
 # General overview 

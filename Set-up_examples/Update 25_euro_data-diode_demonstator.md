@@ -1,12 +1,12 @@
 # €25,- COTS data-diode demonstrator
 
-:exclamation: WARNING THIS IS NOT A REAL DATA-DIODE. It's just for educational purposes.:exclamation: <br>
+:exclamation: WARNING THIS IS NOT A REAL DATA DIODE. It's just for educational purposes.:exclamation: <br>
 <i>If it looks like a duck, swims like a duck, and quacks like a duck, in this case it's not a duck.</i>
 
-To be able to work with data-diodes it helps to have a cheap way of simulating a hardware data-diode. With a €25,- managed switch it's possible to create a 
-data-diode for development purposes. <br>
+To work with data diodes, it helps to have a cheap way of simulating a hardware data diode. With a €25,- managed switch it's possible to create a 
+data diode for development purposes. <br>
 
-Please note: this does not provide the same security as a real data-diode since the configuration could be modified to support bi-directional traffic!
+Please note: this demonstrator does not provide the same security as a real data diode since the configuration could be modified to support bi-directional traffic!
 
 ## Step 1: Buy a €25,- TP-link TL-SG105e managed switch. 
 This can be done with most managed switches that support vlans and port mirroring. We choose the TP-link for the price and easy availability. <br>
@@ -65,5 +65,5 @@ Enjoy your data-diode demonstrator.
 ## :exclamation: Do not use in production :exclamation:
 Since we are limiting the functionality of bidirectional by VLAN separation and port mirroring its still possible for an attacker to access the web interface on the switch. <br>
 
-A real data-diode doesn't have any function for bi-directional traffic.
+A real data diode doesn't have any function for bi-directional traffic.
 Example how to hack the TP-Link: https://www.pentestpartners.com/security-blog/how-i-can-gain-control-of-your-tp-link-home-switch/

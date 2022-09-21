@@ -19,7 +19,7 @@ Tell Docker to start when the computer boots using the following command:
 `sudo systemctl enable docker`
 
 ## Configuring Users
-The osdd service is configured to run under the `osdd` user. For security purposes, this user has no root rights. This user will need to be created. This process needs to be repeated for both machines. The osdd user needs to be a member of the docker group.
+The OSDD service is configured to run under the `osdd` user. For security purposes, this user has no root rights. This user will need to be created. This process needs to be repeated for both machines. The OSDD user needs to be a member of the docker group.
 
 ## Installing OSDD
 The application makes use of a couple of docker images and some configuration files. These files need to be installed in the right location in order for the application to work correctly. The process below needs to be repeated for both proxies. The files need to be configured in the following way:

@@ -52,15 +52,15 @@ This build results in two tar files, one for the ingress proxy, one for the egre
 
 ## Installation
 There is a brief installation document available:
-[docs/installation.md](docs/installation.md)
+[General_docs/installation.md](General_docs/installation.md)
 
 ## Configuration
 There is a brief configuration document available:
-[docs/config_file_explanation.md](docs/config_file_explanation.md)
+[General_docs/config_file_explanation.md](General_docs/config_file_explanation.md)
 
 ## Design choices
 There is a brief design choices document available:
-[docs/design_choices.md](docs/design_choices.md)
+[General_docs/design_choices.md](General_docs/design_choices.md)
 
 ## Support
 In case you need support with the set-up of the OSDD, please contact Serina (serina.vandekragt@ictu.nl).
@@ -71,9 +71,9 @@ To be added
 # 5. Contributing, authors and acknowledgement
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated. 
 
-Get started by reading our [contributors guide](https://github.com/CyberInnovationHub-NLD/OpenSourceDataDiode-OSDD-/blob/master/Code%20of%20Conduct.md).
+Get started by reading our [contributors guide](https://github.com/CyberInnovationHub-NLD/OpenSourceDataDiode-OSDD-/blob/master/Contributors%20guide.md).
 
-Please note that this project is released with a [code of conduct](https://github.com/CyberInnovationHub-NLD/OpenSourceDataDiode-OSDD-/blob/master/CODE_OF_CONDUCT.md). By participating in this project you agree to abide by its terms. 
+Please note that this project is released with a [code of conduct](https://github.com/CyberInnovationHub-NLD/OpenSourceDataDiode-OSDD-/blob/master/Code%20of%20Conduct.md). By participating in this project you agree to abide by its terms. 
 
 # 6. License Information
 

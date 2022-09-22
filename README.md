@@ -73,7 +73,19 @@ There is a brief design choices document available:
 In case you need support with the set-up of the OSDD, please contact Serina (serina.vandekragt@ictu.nl).
 
 ## Roadmap
-To be added
+The roadmap shows what we are working on and some of the things we have done. The roadmap is only a small guide. It does not cover everything we do, and some things may change. You can contact serina.vandekragt@ictu.nl if you have any questions about the roadmap or suggestions for new features.
+
+### Things we're working on
+Now
+- Updating the OSDD-repository to meet the Standard of Public Code (and make it as accessible as possible for contributors). 
+- Updating the license to a EUPL-license
+- Engaging with several developing parties to further work on the source code
+- Make the OSDD-repository open for everyone to contribute
+
+Next
+- Organise a workshop with all stakeholders involved (and the Foundation for Public Code) to form the first use case
+- Participate at a hackaton to further develop the source code of the OSDD
+
 
 # 5. Contributing, authors and acknowledgement
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated. 

@@ -72,7 +72,7 @@ There is a brief design choices document available:
 ## Support
 In case you need support with the set-up of the OSDD, please contact Serina (serina.vandekragt@ictu.nl).
 
-## Roadmap
+# 5. Roadmap
 The roadmap shows what we are working on and some of the things we have done. The roadmap is only a small guide. It does not cover everything we do, and some things may change. You can contact serina.vandekragt@ictu.nl if you have any questions about the roadmap or suggestions for new features.
 
 ### Things we're working on
@@ -87,7 +87,7 @@ Next
 - Participate at a hackaton to further develop the source code of the OSDD
 
 
-# 5. Contributing, authors and acknowledgement
+# 6. Contributing, authors and acknowledgement
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated. 
 
 Get started by reading our [contributors guide](https://github.com/CyberInnovationHub-NLD/OpenSourceDataDiode-OSDD-/blob/master/Contributors%20guide.md).
@@ -96,7 +96,7 @@ Please note that this project is released with a [code of conduct](https://githu
 
 We’re using Discussions as a place to connect with other members of our community. If you have any questions, great ideas, and/or want to engage with other community members, please leave a message at [Discussions](https://github.com/CyberInnovationHub-NLD/OpenSourceDataDiode-OSDD-/discussions)
 
-# 6. License Information
+# 7. License Information
 
 The current license is Apache 2. The code will be published under EUPL. 
 

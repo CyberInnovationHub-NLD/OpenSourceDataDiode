@@ -82,6 +82,8 @@ Get started by reading our [contributors guide](https://github.com/CyberInnovati
 
 Please note that this project is released with a [code of conduct](https://github.com/CyberInnovationHub-NLD/OpenSourceDataDiode-OSDD-/blob/master/Code%20of%20Conduct.md). By participating in this project you agree to abide by its terms. 
 
+We’re using Discussions as a place to connect with other members of our community. If you have any questions, great ideas, and/or want to engage with other community members, please leave a message at [Discussions](https://github.com/CyberInnovationHub-NLD/OpenSourceDataDiode-OSDD-/discussions)
+
 # 6. License Information
 
 The current license is Apache 2. The code will be published under EUPL. 

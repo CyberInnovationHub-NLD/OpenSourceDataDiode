@@ -70,7 +70,7 @@ There is a brief design choices document available:
 [General_docs/design_choices.md](General_docs/design_choices.md)
 
 ## Support
-In case you need support with the set-up of the OSDD, please contact Serina (serina.vandekragt@ictu.nl).
+In case you need support with the set-up of the OSDD, or if you wish to privately report (security) issues, please contact Serina (serina.vandekragt@ictu.nl).
 
 # 5. Roadmap
 The roadmap shows what we are working on and some of the things we have done. The roadmap is only a small guide. It does not cover everything we do, and some things may change. You can contact serina.vandekragt@ictu.nl if you have any questions about the roadmap or suggestions for new features.

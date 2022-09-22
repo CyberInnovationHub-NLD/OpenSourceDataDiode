@@ -27,7 +27,7 @@ Pull requests are the best way to propose changes to the codebase. We actively  
 ## Any contributions you make will be under the Apache License 2.0
 In short, when you submit code changes, your submissions are understood to be under the same Apache License 2.0 that covers the project. Feel free to contact the maintainers if that's a concern.
 
-## Report bugs using Github's [issues](https://github.com/briandk/transcriptase-atom/issues)
+## Report bugs using Github's [issues](https://github.com/CyberInnovationHub-NLD/OpenSourceDataDiode-OSDD-/issues)
 We use GitHub issues to track public bugs. Report a bug by opening a new issue.
 
 ## Write bug reports with detail, background, and sample code

@@ -72,6 +72,9 @@ There is a brief design choices document available:
 ## Support and/or reporting security issues
 In case you need support with the set-up of the OSDD, or if you wish to privately report (security) issues, please contact the maintainer Serina (serina.vandekragt@ictu.nl). When someone lets the maintainer know privately about a security vulnerability, the maintainer develops a fix, validates it, and notifies the developers of the project.
 
+### Report bugs using Github's [issues](https://github.com/CyberInnovationHub-NLD/OpenSourceDataDiode-OSDD-/issues)
+We use GitHub issues to track public bugs. Report a bug by opening a new issue.
+
 # 5. Roadmap
 The roadmap shows what we are working on and some of the things we have done. The roadmap is only a small guide. It does not cover everything we do, and some things may change. You can contact serina.vandekragt@ictu.nl if you have any questions about the roadmap or suggestions for new features.
 

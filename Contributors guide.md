@@ -10,6 +10,10 @@ We want to make contributing to this project as easy and transparent as possible
 ## We Develop with Github
 We use github to host code, to track issues and feature requests, as well as accept pull requests.
 
+If you never used GitHub, get up to speed with [understanding the GitHub Flow](https://guides.github.com/introduction/flow/)
+or follow one of the great free interactive courses in the
+[GitHub learning lab](https://lab.github.com/).
+
 ## All Code Changes Happen Through Pull Requests
 Pull requests are the best way to propose changes to the codebase. We actively  your pull requests:
 

@@ -80,9 +80,8 @@ The roadmap shows what we are working on and some of the things we have done. Th
 
 ### Things we're working on
 Now
-- Updating the OSDD-repository to meet the Standard of Public Code (and make it as accessible as possible for contributors). 
-- Updating the license to a EUPL-license
-- Engaging with several developing parties to further work on the source code
+- Updating the OSDD-repository to meet the Standard of Public Code (and make it as accessible as possible for contributors)
+- Engaging with several developing parties to further work on the source code: next up is a workshop to further elaborate on the roadmap and governance file
 - Make the OSDD-repository open for everyone to contribute
 
 Next
@@ -101,7 +100,7 @@ We’re using Discussions as a place to connect with other members of our commun
 
 # 7. License Information
 
-The current license is Apache 2. The code will be published under EUPL. 
+The current license is Apache 2.
 
 Until the formal publication, the original codebase is NOT for distribution and only intended for use by the OSDD community members. 
 Branches are free to distribute and publish on discretion of the repective branche owner/moderator.

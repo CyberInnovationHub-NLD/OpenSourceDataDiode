@@ -110,5 +110,4 @@ We’re using Discussions as a place to connect with other members of our commun
 
 The current license is Apache 2.
 
-Until the formal publication, the original codebase is NOT for distribution and only intended for use by the OSDD community members. 
 Branches are free to distribute and publish on discretion of the repective branche owner/moderator.

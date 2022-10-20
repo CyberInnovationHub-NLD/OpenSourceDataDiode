@@ -21,7 +21,7 @@
 - [Scalys](https://scalys.com/)
 
 
-# I would like to join this list. How can I help the project?
+## I would like to join this list. How can I help the project?
 The latest version OSDD is tested and functional. However, to make the OSDD a useful device for a range of different scenarios, further development is required. 
 
 Current functional limitations are mainly found in the availability of supported network protocols and in the ability to securely update OSDD software remotely. A second area that needs improvement is the ease of use. Reducing the technical know-how required to implement and use the OSDD would greatly improve its usability. 

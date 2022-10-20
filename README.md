@@ -6,12 +6,16 @@ The Cyber Innovation Hub is included in the Defence Cyber Strategy ([Defensie Cy
 
 
 ### Standard for Public Code
-We endorse the Standard for Public Code as defined by the Foundation for Public Code. We ask our contributors to endorse this standard as well.
+We adhere to the Standard for Public Code as defined by the Foundation for Public Code. We ask our contributors to endorse this standard as well.
 For the full information, please check https://standard.publiccode.net/
 
 ![image](https://user-images.githubusercontent.com/104058636/187181926-5433c767-6fa0-4e04-b89f-4fb818e9a4e0.png)
 
 A video introduction to Standard for Public Code from Creative Commons Global Summit 2020 (4:12) on YouTube.
+
+It is the intent of the OSDD-development community to develop the codebase collaboratively.
+Adhering to the criteria set forth in the Standard for Public Code gives us confidence in the process.
+Therefore, Technolution, Sintecs, Compumatica, Fox-IT, Scalys and further partnering organizations are committed to maintaining and developing the OSDD at a level of quality that meets the Standard for Public Code.
 
 
 ### Guidelines for developers
@@ -108,6 +112,6 @@ We’re using Discussions as a place to connect with other members of our commun
 
 ## 6. License Information
 
-The current license is Apache 2.
+The license is Apache 2.
 
 Branches are free to distribute and publish on discretion of the repective branche owner/moderator.

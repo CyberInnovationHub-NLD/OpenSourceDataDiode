@@ -2,21 +2,18 @@
 
 
 ## 1. Policy
-The Cyber Innovation Hub is included in the Defence Cyber Strategy ([Defensie Cyber Strategie](https://www.defensie.nl/binaries/defensie/documenten/publicaties/2018/11/12/defensie-cyber-strategie-2018/web_Brochure+Defensie+Cyber+Strategie.pdf)) 2018 Dutch Cyber Security Agenda ([Nederlandse Cybersecurity Agenda (NCSA)](https://www.ncsc.nl/onderwerpen/nederlandse-cyber-security-agenda)) 2020. 
-
 
 ### Standard for Public Code
 We adhere to the Standard for Public Code as defined by the Foundation for Public Code. We ask our contributors to endorse this standard as well.
 For the full information, please check https://standard.publiccode.net/
 
-![image](https://user-images.githubusercontent.com/104058636/187181926-5433c767-6fa0-4e04-b89f-4fb818e9a4e0.png)
-
-A video introduction to Standard for Public Code from Creative Commons Global Summit 2020 (4:12) on YouTube.
-
 It is the intent of the OSDD-development community to develop the codebase collaboratively.
 Adhering to the criteria set forth in the Standard for Public Code gives us confidence in the process.
 Therefore, Technolution, Sintecs, Compumatica, Fox-IT, Scalys and further partnering organizations are committed to maintaining and developing the OSDD at a level of quality that meets the Standard for Public Code.
 
+![image](https://user-images.githubusercontent.com/104058636/187181926-5433c767-6fa0-4e04-b89f-4fb818e9a4e0.png)
+
+A video introduction to Standard for Public Code from Creative Commons Global Summit 2020 (4:12) on YouTube.
 
 ### Guidelines for developers
 To be added
@@ -33,6 +30,8 @@ All code have been written primarily for Linux systems.
 
 The OSDD demonstrator was developed in a collaboration between the Cyber Innovation Hub, The Hague Security Delta and Technolution.
 
+![image](https://user-images.githubusercontent.com/104058636/187169728-0fa5b9c2-c291-43c4-81c8-09dcc3c0a1d8.png)
+
 
 ### About the Cyber Innovation Hub
 The Cyber Innovation Hub, established in 2019 from the Ministry of Defence, ensures that departments, research institutions and companies work together on joint security issues within the field of cyber (security). The aim is to strengthen cyber knowledge and skills in the Netherlands, facilitate innovations and experiments and build an ecosystem of cyber experts, innovators and other partners to reduce cyber threats.
@@ -41,8 +40,7 @@ Securing networks is an important point of attention within Cyber. Gaining acces
 
 A data diode is a device that physically enforces uni-directional (one-way) network traffic. This creates an additional layer of security, as the diode enforces that traffic can only flow from network A to network B, thus protecting network A. For more information about data diodes, see [this document](https://github.com/CyberInnovationHub-NLD/OpenSourceDataDiode-OSDD-/blob/master/General_docs/About%20the%20OSDD/Background%20Information%20about%20the%20OSDD.docx).
 
-![image](https://user-images.githubusercontent.com/104058636/187169728-0fa5b9c2-c291-43c4-81c8-09dcc3c0a1d8.png)
-
+The Cyber Innovation Hub is included in the Defence Cyber Strategy ([Defensie Cyber Strategie](https://www.defensie.nl/binaries/defensie/documenten/publicaties/2018/11/12/defensie-cyber-strategie-2018/web_Brochure+Defensie+Cyber+Strategie.pdf)) 2018 Dutch Cyber Security Agenda ([Nederlandse Cybersecurity Agenda (NCSA)](https://www.ncsc.nl/onderwerpen/nederlandse-cyber-security-agenda)) 2020. 
 
 ## 3. Instructions
 

@@ -1,9 +1,0 @@
-[package]
-name = "bip_utils"
-version = "0.1.0"
-edition = "2018"
-
-[dependencies]
-framework_constants = { path= "../framework_constants" }
-log = "0.4.8"
-spsc-bip-buffer = "0.2.1"

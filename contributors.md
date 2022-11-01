@@ -26,4 +26,4 @@ The latest version OSDD is tested and functional. However, to make the OSDD a us
 
 Current functional limitations are mainly found in the availability of supported network protocols and in the ability to securely update OSDD software remotely. A second area that needs improvement is the ease of use. Reducing the technical know-how required to implement and use the OSDD would greatly improve its usability. 
 
-You can contribute to this project by making useful additions to the code. It is also possible to collaborate with our team, by joining the OSDD-community as an organisation, user or developer. Do you want more information? Please contact serina.vandekragt@ictu.nl 
+You can contribute to this project by making useful additions to the code. It is also possible to collaborate with our team, by joining the OSDD-community as an organisation, user or developer. Do you want more information? Please contact Kor Gerritsma (kj.gerritsma@mindef.nl)

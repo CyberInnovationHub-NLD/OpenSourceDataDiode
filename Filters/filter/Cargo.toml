@@ -1,0 +1,15 @@
+[package]
+name = "filter"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+bip_utils = { path= "../../framework/bip_utils" }
+logging = { path= "../../framework/logging"}
+ph_kafka = { path= "../../protocol_handlers/ph_kafka"}
+socket_utils = { path= "../../framework/socket_utils" }
+statistics_handler = { path = "../../statistics/statistics_handler"}
+log = "0.4.8"
+structopt = {version = "0.3.7", default-features = false}
+spsc-bip-buffer = "0.2.1"
+error-chain = "0.12.1"

@@ -1,0 +1,14 @@
+[package]
+name = "osdd"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+logging = { path= "../logging"}
+log = "0.4.8"
+serde = {version = "1.0.104", features=["derive"]}
+structopt = "0.3.5"
+syslog = "5.0.0"
+toml = "0.5.5"
+error-chain = "0.12.1"
+

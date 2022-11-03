@@ -1,25 +1,6 @@
 ## The Open Source Data Diode
 
-
-## 1. Policy
-
-### Standard for Public Code
-We adhere to the Standard for Public Code as defined by the Foundation for Public Code. We ask our contributors to endorse this standard as well.
-For the full information, please check https://standard.publiccode.net/
-
-It is the intent of the OSDD-development community to develop the codebase collaboratively.
-Adhering to the criteria set forth in the Standard for Public Code gives us confidence in the process.
-Therefore, Technolution, Sintecs, Compumatica, Fox-IT, Scalys and further partnering organizations are committed to maintaining and developing the OSDD at a level of quality that meets the Standard for Public Code.
-
-![image](https://user-images.githubusercontent.com/104058636/187181926-5433c767-6fa0-4e04-b89f-4fb818e9a4e0.png)
-
-A video introduction to Standard for Public Code from Creative Commons Global Summit 2020 (4:12) on YouTube.
-
-### Guidelines for developers
-To be added
-
-
-## 2. Introduction 'Open Source Data Diode'
+## 1. Introduction 'Open Source Data Diode'
 The invention of a data diode is not new. But the fact that the Open-Source Data Diode is offered low-end, low-cost, and as the name suggests, open source is something new. The Open Source Data Diode (OSDD) is a mid-tier, low-cost, open source data diode aimed at use by public and private parties in the Netherlands. 
 
 The currently available data diodes are mainly used for highly classified domains, where a high degree of information security applies. The high demands in highly classified domains make them relatively complex and expensive. However, the OSDD is based on a simple but reliable design and use at low costs, which makes the product more accessible and affordable for a multitude of companies, (semi) governments and individuals. In addition, the basic principle is that the OSDD can be used flexibly.
@@ -42,6 +23,22 @@ A data diode is a device that physically enforces uni-directional (one-way) netw
 
 The Cyber Innovation Hub is included in the Defence Cyber Strategy ([Defensie Cyber Strategie](https://www.defensie.nl/binaries/defensie/documenten/publicaties/2018/11/12/defensie-cyber-strategie-2018/web_Brochure+Defensie+Cyber+Strategie.pdf)) 2018 Dutch Cyber Security Agenda ([Nederlandse Cybersecurity Agenda (NCSA)](https://www.ncsc.nl/onderwerpen/nederlandse-cyber-security-agenda)) 2020. 
 
+## 2. Policy
+
+### Standard for Public Code
+We adhere to the Standard for Public Code as defined by the Foundation for Public Code. We ask our contributors to endorse this standard as well.
+For the full information, please check https://standard.publiccode.net/
+
+It is the intent of the OSDD-development community to develop the codebase collaboratively.
+Adhering to the criteria set forth in the Standard for Public Code gives us confidence in the process.
+Therefore, Technolution, Sintecs, Compumatica, Fox-IT, Scalys and further partnering organizations are committed to maintaining and developing the OSDD at a level of quality that meets the Standard for Public Code.
+
+![image](https://user-images.githubusercontent.com/104058636/187181926-5433c767-6fa0-4e04-b89f-4fb818e9a4e0.png)
+
+A video introduction to Standard for Public Code from Creative Commons Global Summit 2020 (4:12) on YouTube.
+
+### Guidelines for developers
+To be added
 ## 3. Instructions
 
 ### Build

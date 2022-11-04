@@ -1,7 +1,22 @@
 ## The Open Source Data Diode
 
+## 1. Introduction 'Open Source Data Diode'
+This repository is home to the Open Source Data Diode.
 
-## 1. Policy
+The invention of a data diode is not new. But the fact that the Open-Source Data Diode is offered low-end, low-cost, and as the name suggests, open source is something new. The Open Source Data Diode (OSDD) is a mid-tier, low-cost, open source data diode aimed at use by public and private parties in the Netherlands. 
+
+The currently available data diodes are mainly used for highly classified domains, where a high degree of information security applies. The high demands in highly classified domains make them relatively complex and expensive. However, the OSDD is based on a simple but reliable design and use at low costs, which makes the product more accessible and affordable for a multitude of companies, (semi) governments and individuals. In addition, the basic principle is that the OSDD can be used flexibly.
+
+The OSDD consists of a hardware device, the physical diode, and a software suite in which additional functionality can be programmed for specific use cases. The codebase contains both a prototype version for a proxy framework for data diodes and the hardware schematics of the diode itself. Currently, the OSDD contains a proxy implementation for the Kafka protocol and it also transports metrics (statsd format) through the diode.
+
+All code have been written primarily for Linux systems. 
+
+The OSDD demonstrator was developed in a collaboration between the Cyber Innovation Hub, The Hague Security Delta and Technolution.
+
+![image](https://user-images.githubusercontent.com/104058636/187169728-0fa5b9c2-c291-43c4-81c8-09dcc3c0a1d8.png)
+
+
+## 2. Policy
 
 ### Standard for Public Code
 We adhere to the Standard for Public Code as defined by the Foundation for Public Code. We ask our contributors to endorse this standard as well.
@@ -17,20 +32,6 @@ A video introduction to Standard for Public Code from Creative Commons Global Su
 
 ### Guidelines for developers
 To be added
-
-
-## 2. Introduction 'Open Source Data Diode'
-The invention of a data diode is not new. But the fact that the Open-Source Data Diode is offered low-end, low-cost, and as the name suggests, open source is something new. The Open Source Data Diode (OSDD) is a mid-tier, low-cost, open source data diode aimed at use by public and private parties in the Netherlands. 
-
-The currently available data diodes are mainly used for highly classified domains, where a high degree of information security applies. The high demands in highly classified domains make them relatively complex and expensive. However, the OSDD is based on a simple but reliable design and use at low costs, which makes the product more accessible and affordable for a multitude of companies, (semi) governments and individuals. In addition, the basic principle is that the OSDD can be used flexibly.
-
-The OSDD consists of a hardware device, the physical diode, and a software suite in which additional functionality can be programmed for specific use cases. The codebase contains both a prototype version for a proxy framework for data diodes and the hardware schematics of the diode itself. Currently, the OSDD contains a proxy implementation for the Kafka protocol and it also transports metrics (statsd format) through the diode.
-
-All code have been written primarily for Linux systems. 
-
-The OSDD demonstrator was developed in a collaboration between the Cyber Innovation Hub, The Hague Security Delta and Technolution.
-
-![image](https://user-images.githubusercontent.com/104058636/187169728-0fa5b9c2-c291-43c4-81c8-09dcc3c0a1d8.png)
 
 
 ### About the Cyber Innovation Hub

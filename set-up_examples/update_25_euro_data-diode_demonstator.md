@@ -58,7 +58,7 @@ Enjoy your data-diode demonstrator.
 ![image](https://user-images.githubusercontent.com/104058636/191474016-c051a4ab-8054-4e5b-a6da-2b7bdba0a79d.png)
 
 ## Simple trouble shooting
-- Manually change the TX and TX proxy IP addresses in the same range and disable IPv6
+- Manually change the RX and TX proxy IP addresses in the same range and disable IPv6
 - Do not forget the ARP injection on the TX proxy when sending traffic directly to the RX proxy
 - Run TCPDump on both the TX and RX proxies to validate packets are sent and received.
 
